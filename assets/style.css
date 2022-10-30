@@ -32,6 +32,11 @@
     cursor: pointer;
     color: #fff;
     text-transform: uppercase;
+
+}
+
+span{
+    color: #c9b30d;
 }
 .navbar ul li {
     margin: 0 20px;
@@ -54,8 +59,45 @@
     position:absolute;
     left:0;
     bottom: -8px;
+ 
 
  }
  .navbar ul li:hover::after {
     width: 100%;
  }
+
+ .main
+ {
+  position:absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50px);
+  color:#fff
+
+ }
+ .main h1 {
+    color: #fff;
+    margin: 10px 0px 10px;
+    font-size: 70px;
+    
+    
+ }
+.main h4 {
+    color:#fff;
+    font-size: 25px;
+    margin: 10px 0px 10px;
+    
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0px 10px;
+
+}
+/*
+.main p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+ }*/
