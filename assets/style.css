@@ -98,6 +98,44 @@ span{
 .about {
     width:100%;
     padding: 100px 0px;
-    background-color: #302d2d;
+    background-color: #343131;
 
+}
+ .about img{
+    height: auto;
+    width: 430px;
+
+ }
+
+ .about-text{
+    width: 550px
+ }
+
+ .me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+ .about-text {
+
+  color: #fff;
+  margin-bottom: 20px;
+
+ }
+ .about-text h2
+ {
+    color: #c9b30d ;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px
+    ;
+}
+.about-text p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom:  45px; ;
 }
