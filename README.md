@@ -1,8 +1,5 @@
 # SadePortfolio
-#Portfolio
-
-##My portfolio
-
+ 
 The start of my web development portfolio
 
 ##Installation 
