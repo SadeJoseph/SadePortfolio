@@ -139,3 +139,65 @@ span{
     line-height: 28px;
     margin-bottom:  45px; ;
 }
+
+.portfolio-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    grid-template-areas: 
+    'portfolio-1 portfolio-1 portfolio-1'
+    'portfolio-2 portfolio-2 portfolio-3';
+
+}
+.portfolio-1
+{
+    display:grid;
+    width:  100%;
+    padding: 100px 0px;
+    background-image: url(https://api.lorem.space/image/shoes?w=150&h=150);
+    color: #fff;
+    height: 500px;
+    background-size: cover;
+    cursor: pointer;
+    grid-area: portfolio-1 ;
+    background-position: center top;
+}
+.portfolio-head {
+    display: flex;
+    justify-items: flex-start;
+    align-self: flex-end;
+   font-size: 25px;
+    background: rgba(0,0,0,0.4);
+    color: #c9b30d;
+    padding: 20px;
+    text-decoration: none;
+}
+h3 {
+    display: block;
+    font-weight: bold;
+}
+
+.portfolio-2 {
+    display:grid;
+    width:  100%;
+    padding: 100px 0px;
+    background-image: url(https://api.lorem.space/image/shoes?w=150&h=150);
+    color: #fff;
+    height: 300px;
+    background-size: cover;
+    cursor: pointer;
+    grid-area: portfolio-2 ;
+    background-position: center top;
+}
+.portfolio-3 {
+    display:grid;
+    width:  100%;
+    padding: 100px 0px;
+    background-image: url(https://api.lorem.space/image/shoes?w=150&h=150);
+    color: #fff;
+    height: 300px;
+    background-size: cover;
+    cursor: pointer;
+    grid-area: portfolio-3 ;
+    background-position: center center;
+}
